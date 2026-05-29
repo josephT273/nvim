@@ -142,5 +142,8 @@ map("n", "<leader>lr", "<cmd>LspRestart<CR>", { desc = "LSP restart" })
 -- Mason
 map("n", "<leader>cm", "<cmd>Mason<CR>", { desc = "Mason" })
 
+-- Markdown preview (glow)
+map("n", "<leader>mp", "<cmd>tab term glow '%'<CR>", { desc = "Preview markdown (glow)" })
+
 -- Alpha / Dashboard
 map("n", "<leader>aa", "<cmd>Alpha<CR>", { desc = "Open dashboard" })

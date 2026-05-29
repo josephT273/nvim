@@ -19,6 +19,7 @@ return {
         "sql-language-server",
         "java-language-server",
         "svelte-language-server",
+        "dartls",
         "prettier",
         "stylua",
         "shfmt",

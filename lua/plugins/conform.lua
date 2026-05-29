@@ -31,6 +31,7 @@ return {
         graphql = { "prettier" },
         sql = { "sql_formatter" },
         sh = { "shfmt" },
+        dart = { "dart_format" },
         c = { "clang-format" },
         cpp = { "clang-format" },
       },
