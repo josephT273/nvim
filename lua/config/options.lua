@@ -1,7 +1,7 @@
 local opt = vim.opt
 
-opt.number = true
-opt.relativenumber = true
+opt.number = false
+opt.relativenumber = false
 opt.mouse = "a"
 opt.showmode = false
 opt.breakindent = true
@@ -46,5 +46,3 @@ opt.swapfile = false
 
 opt.hidden = true
 opt.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal"
-
-

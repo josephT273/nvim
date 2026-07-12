@@ -19,6 +19,7 @@ return {
         "sql-language-server",
         "java-language-server",
         "svelte-language-server",
+        "vala-language-server",
         "dartls",
         "prettier",
         "stylua",
@@ -117,6 +118,7 @@ return {
         sqlls = {},
         jdtls = {},
         svelte = {},
+        vala_ls = {},
       }
 
       require("mason-lspconfig").setup({

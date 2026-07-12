@@ -8,7 +8,7 @@ return {
         "javascript", "typescript", "tsx", "html", "css",
         "json", "yaml", "toml", "lua", "bash", "dockerfile",
         "gitignore", "make", "markdown", "regex", "sql",
-        "graphql", "prisma", "cmake", "svelte", "dart",
+        "graphql", "prisma", "cmake", "svelte", "dart", "vala",
       }
       local task = install.install(parsers, {})
       local ok, err = pcall(task.wait, task)
